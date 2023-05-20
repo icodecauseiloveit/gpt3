@@ -1,7 +1,7 @@
-import React from 'react'
-import './Header.css'
-import people from '../../assets/people.png'
-import ai from '../../assets/ai.png'
+import React from "react";
+import "./Header.css";
+import people from "../../assets/people.png";
+import ai from "../../assets/ai.png";
 
 const Header = () => (
   <div className="gpt3__header section__padding" id="home">
@@ -26,6 +26,4 @@ const Header = () => (
   </div>
 );
 
-export default Header
-
-//TODO https://youtu.be/LMagNcngvcU?t=4509
+export default Header;
